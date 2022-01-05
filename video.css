@@ -1,0 +1,30 @@
+header
+{
+width: 100%;
+height: auto;
+position: relative;
+overflow: hidden;
+}
+video
+{
+  width: 0%;
+}
+.absolute
+{
+  width: 0%;
+  height: 0%;
+  top: 0;
+  right: 0;
+  position: absolute;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.overlay
+{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: rgb(233, 255, 236);
+}

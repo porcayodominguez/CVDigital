@@ -1,0 +1,241 @@
+/*Esta es la hoja de estilos principal*/
+/*Elaborado por: Jesús Alfredo Porcayo Dominguez*/
+/*fecha de elaboracion: 18 de marzo de 2021*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400&display=swap');
+body
+{
+  background-image: url(imagenes/fondos/curls.png);
+  margin: 10px auto;
+  color:rgb(190, 190, 190) ; /*Color de la letra*/
+  width: 80%;
+}
+header>h1
+{
+  font-family: Raleway,cursive;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: rgb(128, 110, 79) 6px 6px 8px;/*sombra letra, los tres numeros indicandistancia horizontal, vertical */
+}
+/**logo, dar formato*/
+.logo-left
+{
+  float:left;
+  padding: 20px 0px 0px 20px;
+  width: 120px;
+  height: 120px;
+}
+.logo-right
+{
+  float: right;
+  padding: 20px 20px 0px 20px; /*espacio de relleno*/
+  width: 120px;
+  height: 120px;
+}
+header
+{
+  width: 100%;/*toma toda la pantalla*/
+  overflow: hidden;/*ocultar error de visualizacion*/
+  background-color:rgb(25, 32, 28);
+  margin-bottom: 0px;
+  padding: 0px;
+  border-radius: 25px 25px 0px 0px;
+  border-style: none;
+}
+nav
+{
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+nav ul
+{
+  list-style: none;
+}
+nav li
+{
+  display: inline-block;
+  margin-right: 2px;
+  margin-top: 0.2em;
+}
+.boton
+{
+  background-color:rgb(48, 40, 38);
+  color: rgb(194, 192, 187);
+  display: inline-block;
+  font-size: 1em;
+  margin: 5px;
+  padding: 10px 0px;
+  text-align: center;
+  width: 180px;
+  text-decoration: none;
+  box-shadow: rgb(185, 194, 117) 6px 6px 8px;
+  border-radius: 30px;
+}
+.boton:hover{
+  background-color: rgb(174, 2, 235);
+  color: rgb(94, 10, 107);
+  box-shadow: 0px 02px 5px rgb(71, 56, 91);
+  padding-top: 7px;
+}
+.botonredes
+{
+  display: inline-flex;
+  width: 15px;
+  height: 15px;
+  padding: 15px;
+  background-color: rgb(34, 10, 4);
+  border-radius: 100%;
+}
+.botonredes img
+{
+  width: 15px;
+  height: 15px;
+}
+.botonredes:hover
+{
+  background-color: rgb(128, 107, 43);
+  border-radius: 100%;
+  box-shadow: 0px 0px 5px rgb(189, 7, 77);
+}
+.contenedor
+{
+  padding: 10px 20px 10px 20px;
+  background: rgb(255, 255, 255, 0.20);
+  border-radius: 2em;
+  box-shadow: 0px 5px 3px rgb(0, 0, 0, .4);
+}
+section
+{
+  float: left;
+  width: 70%;
+  text-align: justify;
+  margin-top: 10px;
+}
+article
+{
+  margin-bottom: 5px;
+  padding: 10px;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(36, 22, 16);
+  background-color: rgb(60, 60, 60);
+}
+aside
+{
+  float: right;
+  width: 30%;
+  text-align: justify;
+  margin-top: 0px;
+}
+blockquote
+{
+  margin-bottom: 5px;
+  padding: 10px;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(36, 22, 16);
+  background-color: rgb(60, 60, 60);
+}
+.izq
+{
+  float: left;
+}
+.der
+{
+  float: right;
+  padding-right: 20px;
+}
+.enlace-footer
+{
+  font-size: 10px;
+  color: rgb(223, 246, 27);
+  padding-right: 5px;
+  text-decoration: none;
+  font-family: verdana;
+
+}
+.enlace-footer:hover
+{
+  color: rgb(190, 255, 9);
+  text-shadow: 0px 0px 5px rgb(27, 28, 28);
+  text-decoration: underline;
+}
+footer>p
+{
+  text-align: center;
+  color: rgb(142, 6, 210);
+  font-size: 13px;
+  font-family: verdana;
+
+}
+footer
+{
+  width: 100%; /*Establecemos en el header abarque el 100% del documento*/
+  overflow: hidden; /*Eliminamos errores en el float*/
+  background-color: rgb(57, 54, 52);
+  margin-bottom: 0px;
+  padding: 0px;
+  border-radius: 0px 0px 25px 25px; /*Superior, derecho, inferior, izquierdo*/
+  border-style: none;
+}
+img.radius
+{
+  width: 35%;
+  height: 35%;
+  float: right;
+  border-radius: 100%;
+  border-style: solid;
+  margin: 0px;
+  border:2px solid rgba(45, 9, 9, 0.82);
+  padding: 10px;
+  margin: 10px;
+}
+.enlace-aside
+{
+  font-size: 1em;
+  color: rgb(84, 82, 247);
+  padding-right: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold; /*Fuente en negritas*/
+
+}
+.enlace-aside:hover
+{
+  color: rgb(0, 0, 0);
+  text-shadow: 0px 0px 5px rgba(101, 86, 19, 0.36);
+  text-decoration: underline;
+  font-weight: bold;
+}
+table
+{
+  width: 80%;
+  margin:auto;
+  font-family: 'Raleway', sans-serif;
+  color: rgb(245, 250, 248);
+
+}
+th
+{
+  font-family: 'Raleway';
+  font-size: 15px;
+  text-align: center;
+}
+td
+{
+  padding: 5px;
+  font-family: 'Raleway';
+}
+tr:nth-child(odd)
+{
+  background-color: rgb(27, 6, 10);
+}
+tr:nth-child(even)
+{
+  background-color: rgba(114, 133, 9, 0.26);
+}
